@@ -81,7 +81,7 @@ second_data_set <- first_data_set %>%
 # change back to script directory
 setwd("..") 
 # write file
-write.csv(second_data_set,"tidy_dataset.csv",row.names=FALSE)
+write.table(second_data_set,"tidy_dataset.txt",row.names=FALSE)
 # clean up files
 unlink("dataset.zip")
 unlink("UCI HAR Dataset",recursive=TRUE)
