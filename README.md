@@ -10,13 +10,12 @@
 
 ### Files in this repo:
 * README.md - explanation of this repo (you are reading this right now)
-* codebook.md - code book detailing the dataset and script 
+* codebook.md - code book detailing the dataset and script manipulations
 * run_analysis.R - R script to retrieve and process data
 * tidy_dataset.txt - tidy output satisfying project requirements
 
 ### Requirements:
 * R
-* data-table
 * Internet access
 
 ### Usage:
