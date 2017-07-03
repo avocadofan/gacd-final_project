@@ -1,5 +1,10 @@
+Data URL:
 
-[Details below from from UCI] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Source, Data Set Info, Attribute Info borrowed from:
+
+(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 
 Source:
 
@@ -25,3 +30,21 @@ For each record in the dataset it is provided:
 * Its activity label. 
 * An identifier of the subject who carried out the experiment.
 
+Relevant Files in Data Source:
+
+* features.txt - list of features
+* features_info.txt - information about feature variables
+* activity_labels.txt - id to name mapping for activities (walking, sitting, etc.)
+* /train/X_train.txt - training data set
+* /test/X_train.txt - test data set
+* /train/y_train.txt - training data labels
+* /test/y_test.txt - test data labels
+* /train/subject_train.txt & /test/subject_test.txt - list of subjects (participants)
+
+Data Transformation Operations:
+
+* Test and train data are merged 
+* Data is filtered to preserve only mean and stdev features
+* Data labels are enriched with descriptive activity names
+* Data sets are merged to provide descriptive, tidy data set
+* Per-subject metrics are calculated and written to output fule
