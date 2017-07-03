@@ -1,6 +1,6 @@
 ## About The Source Data 
 
-[Information borrowed from UCI]("http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones") 
+[Details below from from UCI] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 
 # Source:
 
